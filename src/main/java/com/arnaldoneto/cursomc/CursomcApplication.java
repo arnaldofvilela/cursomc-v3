@@ -47,7 +47,7 @@ public class CursomcApplication implements CommandLineRunner{
 	@Autowired
 	private PedidoRepository pedidoRepository;
 	@Autowired
-	private PagamentoRepository pagamentoRepository;
+	private PagamentoRepository pagamentoRepository;	
 	
 	public static void main(String[] args) {
 		SpringApplication.run(CursomcApplication.class, args);
